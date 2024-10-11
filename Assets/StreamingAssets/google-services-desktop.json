@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1086202735848",
+    "firebase_url": "https://fir-sebastian-4a8be-default-rtdb.firebaseio.com",
+    "project_id": "fir-sebastian-4a8be",
+    "storage_bucket": "fir-sebastian-4a8be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086202735848:android:8a8d33388bbf0ff9382d5d",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.FireBaseSebastianVargas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU0O3y87Nnpgr7QbnUzaVwSNDCt8ixQaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

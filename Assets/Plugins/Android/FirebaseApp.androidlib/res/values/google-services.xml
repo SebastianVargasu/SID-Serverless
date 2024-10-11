@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://fir-sebastian-4a8be-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">1086202735848</string>
+  <string name="google_storage_bucket" translatable="false">fir-sebastian-4a8be.appspot.com</string>
+  <string name="project_id" translatable="false">fir-sebastian-4a8be</string>
+  <string name="google_api_key" translatable="false">AIzaSyCU0O3y87Nnpgr7QbnUzaVwSNDCt8ixQaE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCU0O3y87Nnpgr7QbnUzaVwSNDCt8ixQaE</string>
+  <string name="google_app_id" translatable="false">1:1086202735848:android:8a8d33388bbf0ff9382d5d</string>
+</resources>
