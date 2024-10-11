@@ -93,6 +93,10 @@ public class LoginAndRegister : MonoBehaviour
 
     public void RegisterUser()
     {
+        if(userNameInput.text.Length < 1){
+            Debug.LogError("Username is required");
+            return;
+        }
         auth.CreateUserWithEmailAndPasswordAsync(emailInput.text, passwordInput.text).ContinueWith(task =>
         {
             if (task.IsCanceled)
