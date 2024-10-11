@@ -27,7 +27,7 @@ public class LeaderBoardManager : MonoBehaviour
                 {
                     List<DataSnapshot> orderedChildren = snapshot.Children.ToList();
                     orderedChildren.Reverse();
-                    int position = 1; // Contador manual para la posición
+                    int position = 1;
 
                     foreach (DataSnapshot child in orderedChildren)
                     {
@@ -39,7 +39,7 @@ public class LeaderBoardManager : MonoBehaviour
                         GameObject newLabel = Instantiate(leaderBoardLabelPrefab, leaderBoardLabelsRoot);
                         newLabel.GetComponent<LeaderBoardLabel>().SetLabel(position.ToString(), username, score);
 
-                        position++; // Aumentar la posición después de cada iteración
+                        position++; 
                     }
                 }
             }
